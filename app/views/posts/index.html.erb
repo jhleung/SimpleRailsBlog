@@ -1,0 +1,37 @@
+<body class="index">
+	<div class ="wrapper">
+		<div>	<%= link_to "Create a New Article", new_post_path%> </div>
+		<div class="search"> 
+			<%= form_tag(posts_path, :method => "get", id: "search-form") do %>
+					<%= text_field_tag :search, params[:search], placeholder: "Search Posts" %>
+					<%= submit_tag "Search" %> 
+					<% end %>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="titles">	
+			<div class="welcome"><h1 >Welcome to Jeffrey Leung's Blog</h1> </div><hr>
+			<ul><% @posts.each do |post| %>
+				<div class="title">
+					<li>
+						<h3 class="titleLink"><%= link_to post.title , post_path(post) %> </h3>
+						<%= post.created_at %>
+					</li>
+					<hr>
+				</div>	
+			<% end %> </ul>		
+		</div>
+
+		<div class="profpic">
+			<br><br>
+			<hr><div id ="about"> <h1> <a href="about.html">ABOUT</a></h1> </div><hr>
+			<img class="me" src="pic.jpg" alt="" height="300" width="300" align="middle"><br><br>
+			<hr><div id ="info"> <h5>
+				<a href="contact.txt">Contact</a>  |  
+				<a href="resume.txt">Resume</a>  |  
+				<a href="https://github.com/jhleung">Github</a> </h5>
+			 </div><hr>
+			
+		</div>
+	</div>
+</body>

@@ -1,0 +1,65 @@
+Jeffrey Leung Phone: (972)-837-0695 Email: Jeffrey.leung@live.com
+
+EDUCATION
+
+The University of Texas at Austin Expected Graduation Date: May 2018
+
+Bachelor of Science in Computer Science
+
+* Completion of Data Structures course
+
+* Completion of Computer Organization and Architecture course
+
+TECHNICAL SKILLS
+
+Languages: Java
+
+Exposure to C, X86 Assembly
+
+Exposure to Linux, Eclipse
+
+EXPERIENCE
+
+Material Handler at Well Go USA June 2013 – September 2013
+
+* Sorted and held count of thousands of DVDs, CDs, and DVD cases
+
+* Worked quickly and efficiently to increase production value
+
+* Worked with a team in an assembly-line fashion
+
+* Performed repetitive tasks accurately over long periods of time
+
+* Developed communication skills by relaying information to other employees and the manager
+
+Caretaker at Ark Preschool Fall 2012 – May 2014
+
+* Volunteered every weekend to work with faculty and children at school/church events
+
+* Developed teamwork and communication skills by speaking with parents and faculty and working with teams
+
+* Developed leadership skills by acting as a mentor over toddlers
+
+* Managed conflict if any arose and developed problem solving skills
+
+PROJECTS
+
+School
+
+* Elemental Fighter – Used Java GUI to make a fighter game similar to Street Fighter
+
+o Designed the game’s menus (home screen, character selection phase, battle phase) using GUI layouts
+
+o Two player game with four game characters based on earth, fire or water with keyboard controls
+
+o Animated player abilities and particles and used physics to make animations smooth
+
+o Utilized collision detection with player coordinates to determine when a player is damaged
+
+* QuizKnows – Used Java GUI to make a Quiz Maker/Taker tool similar to Quizlet
+
+o Worked with GUI layouts, user input, user output
+
+ORGANIZATIONS
+
+* University Leadership Network Fall 2014 – Present

@@ -1,0 +1,21 @@
+<body class="index">
+	<div class="outerContainer">
+		<div class="back">
+		<%= link_to "<< Back to Jeffrey Leung's Blog", posts_path %> <br>
+		</div>
+		<div class="post">
+			<h1><%= @post.title %></h1>
+			<%= link_to "Edit", edit_post_path %> |
+			<%= link_to "Delete", post_path(@post), method: :delete %>
+			<h5><%= @post.created_at %></h5>
+			<%= simple_format(@post.body) %>
+		</div>
+		<div class="otherstuff">
+			<h2>Comments (<%= @post.comments.size %>)</h2>
+			<%= link_to "View pending comments", post_path(@post.comments) %>
+			
+			<%= render partial: 'posts/comment', collection: @post.comments %>
+			<%= render partial: 'comments/form' %>
+		</div>
+	</div> 
+</body>
